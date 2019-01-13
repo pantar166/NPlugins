@@ -1,5 +1,3 @@
-<?php
-
 namespace NEntityTag;
 
 use pocketmine\plugin\PluginBase;
@@ -27,4 +25,3 @@ public function setNameTag (EntityDamageEvent $event) {
     }
   }
 }
-?>
