@@ -5,6 +5,8 @@ namespace NEntityTag;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\entity\Entity;
+use pocketmine\Player;
+use pocketmine\Server;
 use pocketmine\event\entity\EntityDamageEvent;
 
 class NEntityTag extends PluginBase implements Listener {
