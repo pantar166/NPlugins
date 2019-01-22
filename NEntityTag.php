@@ -21,7 +21,7 @@ class NEntityTag extends \pocketmine\plugin\PluginBase implements \pocketmine\ev
         }
     }
 
-    public function onSpawn (\pocketmine\event\entity\EntityDamageEvent $event) {
+    public function onSpawn (\pocketmine\event\entity\EntityDeathEvent $event) {
         $entity = $event->getEntity();
         if ($entity instanceof \pocketmine\Player) {
         } else {
