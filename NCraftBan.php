@@ -83,8 +83,7 @@ class NCraftBan extends PluginBase implements Listener {
 	public function onCraft (CraftItemEvent $event) {
 		$player = $event->getPlayer();
 		if ($player->isOp()) return true;
-        foreach ($event->getOutputs() as $items) {
-			var_dump ($items);
+        	foreach ($event->getOutputs() as $items) {
 			$code = $items->getId() . ':' . $items->getDamage();
 			if (isset($this->db [$code])) {
 				$event->setCancelled(true);
