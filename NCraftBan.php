@@ -1,15 +1,6 @@
 <?php
 
-/**
- * @name NeosCraftBan
- * @main NeosCraftBan\NeosCraftBan
- * @author NeosKR
- * @version 0.1
- * @api 4.0.0
- * @description This plugin is made by NeosKR
- */
-
-namespace NeosCraftBan;
+namespace NCraftBan;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -27,20 +18,19 @@ use pocketmine\event\inventory\CraftItemEvent;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class NeosCraftBan extends PluginBase implements Listener {
+class NCraftBan extends PluginBase implements Listener {
 
 	public function onEnable () {
 		@mkdir ( $this->getDataFolder () );
 		$this->database = new Config ( $this->getDataFolder() . 'data.yml', Config::YAML, []);
 		$this->db = $this->database->getAll();
-		$this->commands = ['조합밴'];
-		$this->addCommand();
+		$this->addCommand(['조합밴']);
 		$this->getServer()->getPluginManager()->registerEvents ( $this, $this );
 	}
 
-	public function addCommand () {
+	public function addCommand ($array) {
 		$count = 0;
-		foreach ($this->commands as $command) {
+		foreach ($array as $command) {
 			$count ++;
 			$a = new \pocketmine\command\PluginCommand($command, $this);
 			$a->setDescription('플러그인 제작자 ㅣ 네오스 (NeosKR)');
