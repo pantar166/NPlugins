@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * @name NeosCraftBan
+ * @main NeosCraftBan\NeosCraftBan
+ * @author NeosKR
+ * @version 0.1
+ * @api 4.0.0
+ * @description This plugin is made by NeosKR
+ */
+
 namespace NeosCraftBan;
 
 use pocketmine\plugin\PluginBase;
