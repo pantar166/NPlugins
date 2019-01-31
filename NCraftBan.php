@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * @name NCraftBan
+ * @main NCraftBan\NCraftBan
+ * @author Ne0sW0rld
+ * @version 0.1
+ * @api 4.0.0
+ * @description 조합 - 밴 기능 구현 | By Ne0sW0rld
+ */
+
 namespace NCraftBan;
 
 use pocketmine\plugin\PluginBase;
@@ -50,12 +59,12 @@ class NCraftBan extends PluginBase implements Listener {
 	}
 
 	public function msg ($player, $msg) {
-		$player->sendMessage ('§6§l 시스템 ∥ §r§7'.$msg);
+		$player->sendMessage ('§6§l 시스템 > §r§7'.$msg);
 	}
 	
 	public function allmsg ($msg) {
 		foreach ($this->getServer()->getOnlinePlayers() as $player) {
-			$player->sendMessage ('§6§l 전체 알림 ∥ §r§7'.$msg);
+			$player->sendMessage ('§6§l 전체 알림 > §r§7'.$msg);
 		}
 	}
 
