@@ -172,7 +172,7 @@ class NArmorColor extends PluginBase implements Listener {
 		}
 		$player->getInventory()->removeItem ($this->getItem());
 		$this->setColor ($player, $color);
-		$this->msgUI ($player, '성공적으로 색을 변경하였습니다');
+		$this->msgUI ($player, '색이 입혀진 갑옷을 성공적으로 구매 후 자동으로 입혀졌습니다');
 	}
 
 	public function setColor ($player, $color)
