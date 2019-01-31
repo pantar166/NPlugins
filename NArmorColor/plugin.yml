@@ -1,0 +1,9 @@
+name: NArmorColor
+main: NArmorColor\NArmorColor
+version: Master - Beta
+author: NeosKR
+api:
+- 2.0.0
+- 3.0.0
+- 3.3.0
+- 4.0.0
