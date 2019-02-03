@@ -7,5 +7,5 @@
 
 
 # 개발 완료 된 플러그인
-1. [X] NArmorChange [*색 갑옷 지급 플러그인*]
-2. [X] NCraftBan [*조합 밴 플러그인*]
+1. [X] NArmorChange *색 갑옷 지급 플러그인 *
+2. [X] NCraftBan *조합 밴 플러그인 *
