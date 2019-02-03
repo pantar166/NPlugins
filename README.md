@@ -1,2 +1,11 @@
-# NPlugins
-For my new way making plugin
+# NPlugins | 네오스, 무료 공유 플러그인
+여러분은 '네오스' 의 무료 플러그인을 사용하실 수 있습니다!
+
+
+| table01 | table02 | table03 |
+| 설렌다 미 라이키 | 트와이스 | 킹왕짱 |
+
+
+# 개발 완료 된 플러그인
+1. [X] NArmorChange [*색 갑옷 지급 플러그인*]
+2. [X] NCraftBan [*조합 밴 플러그인*]
