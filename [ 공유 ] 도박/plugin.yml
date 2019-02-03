@@ -1,0 +1,8 @@
+name: NeosDobak
+version: B1
+api:
+- 1.0.0
+- 2.0.0
+- 3.0.0
+author: Neos1234
+main: NeosDobak\NeosDobak

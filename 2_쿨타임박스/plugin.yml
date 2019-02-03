@@ -1,0 +1,8 @@
+name: CooltimeBox
+author: NeosPE
+version: BBBBBBB
+main: CooltimeBox\CooltimeBox
+api:
+- 2.0.0
+- 3.0.0
+- 3.0.1

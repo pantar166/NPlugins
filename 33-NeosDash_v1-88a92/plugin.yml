@@ -1,0 +1,16 @@
+name: NeosDash
+author: NeosPE
+version: v1
+main: NeosDash\NeosDash
+api:
+- 3.0.0
+- 3.0.0-ALPHA12
+
+commands:
+  대쉬:
+    description: 대쉬 블럭 §c§l(Made by NeosPE)
+    permission: dash.block
+
+permissions:
+  dash.block:
+    default: op

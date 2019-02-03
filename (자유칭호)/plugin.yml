@@ -1,0 +1,12 @@
+name: UIPrefix
+version: "1"
+author: NeosPE
+main: UIPrefix\UIPrefix
+api:
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA10
+- 3.0.0-ALPHA11
+commands:
+ 자유칭호:
+  description: 자유칭호 데쓰

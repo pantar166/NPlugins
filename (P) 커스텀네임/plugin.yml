@@ -1,0 +1,12 @@
+name: UIName
+version: "2"
+author: NeosPE
+main: UIName\UIName
+api:
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA10
+- 3.0.0-ALPHA11
+commands:
+ 이름:
+  description: 아이템 이름을 바꿀 수 있습니다

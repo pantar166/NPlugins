@@ -1,0 +1,23 @@
+name: NCheck
+author: NeosKR
+version: 네오스_잘생김_V2
+main: NCheck\NCheck
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA7
+- 3.0.0-ALPHA8
+- 3.0.0-ALPHA9
+- 3.0.0 ALPHA10
+- 3.1.0
+- 4.0.0
+
+commands:
+ 조회:
+  permission: check.command
+  description: 유저가 접속했는지 안했는지 췌--크
+
+permissions:
+ check.command:
+  default: OP

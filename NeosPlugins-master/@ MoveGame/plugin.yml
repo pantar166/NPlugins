@@ -1,0 +1,16 @@
+name: MoveGame
+author: NeosPE
+main: MoveGame\MoveGame
+version: B1
+api:
+- 3.0.0
+- 3.0.0-ALPHA12
+
+commands:
+  "p":
+    permission: pp.co
+  "pv":
+    description: PVP장 이동
+permissions:
+  pp.co:
+    default: OP

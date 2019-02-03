@@ -1,0 +1,9 @@
+name: NeosItemPopup
+main: NeosItemPopup\NeosItemPopup
+version: B1
+api:
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA10
+author: NeosPE

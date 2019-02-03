@@ -1,0 +1,8 @@
+name: NeosLottery
+author: NeosPE
+version: BBBBBBB
+main: NeosLottery\NeosLottery
+api:
+- 2.0.0
+- 3.0.0
+- 3.0.1

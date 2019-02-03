@@ -1,0 +1,10 @@
+---
+name: ServerProtect
+main: ServerProtect\ServerProtect
+author: NeosPE
+version: B1
+api:
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA10
+...
